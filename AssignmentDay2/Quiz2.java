@@ -2,9 +2,11 @@ package AssignmentDay2;
 
 import java.util.Scanner;
 
-public class Quiz2 {
+public class Quiz2 
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 
 		Scanner input = new Scanner(System.in);
 		System.out.print("첫 번째 정수를 입력하시오 : ");
@@ -20,7 +22,6 @@ public class Quiz2 {
 		System.out.print( b );
 		
 		input.close();
-		
 	}
 
 }
