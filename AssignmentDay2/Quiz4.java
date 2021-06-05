@@ -22,7 +22,6 @@ public class Quiz4
 		System.out.println( a );
 		
 		input.close();
-		
 	}
 
 }
