@@ -14,8 +14,8 @@ public class Quiz1
 		int n = 1;
 		int sum = 0;
 		
-		while ( n <= i)
-		{	sum += n ;
+		while ( n <= i )
+		{	sum += n;
 		 	n++;
 		}
 		
