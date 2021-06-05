@@ -3,11 +3,9 @@ package ConditionExercise;
 import java.util.Scanner;
 
 public class Quiz2 
-
 {
 
 	public static void main(String[] args) 
-	
 	{
 		Scanner input = new Scanner ( System.in ) ;
 		System.out.print("영문 대문자 A~F를 입력하시오 : ");
@@ -32,8 +30,7 @@ public class Quiz2
 				break;
 			default :
 				System.out.println("error");
-				break;
-				
+				break;	
 		}
 		
 		input.close();
