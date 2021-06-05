@@ -16,15 +16,14 @@ public class Quiz4
 			System.out.print( "정수를 입력해 주세요 : ");
 			num = input.nextInt();
 			
-			if (num%3 != 0 && num%5 != 0) //3의 배수도 아니고 5의 배수도 아닌 수들일 때, 
+			if ( num%3 != 0 && num%5 != 0 ) //3의 배수도 아니고 5의 배수도 아닌 수들일 때, 
 			{
 				count += 1; //카운트를 사용하여 더해줌 
 			}
 			
-		} while (num != 0);
+		} while ( num != 0 );
 		
 		System.out.println( count ); //출력해줌 
-
 		
 		input.close(); //짜잔 
 	}
