@@ -15,8 +15,8 @@ public class Quiz4
 		{
 			for ( int row = 1; row <= column; row++ ) //열을 만들어 줌 
 			{
-			System.out.print("*");
-	        }
+				System.out.print("*");
+			}
 			System.out.println();
 		}
 		in.close();
