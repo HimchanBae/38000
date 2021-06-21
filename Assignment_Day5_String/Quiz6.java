@@ -18,7 +18,7 @@ public class Quiz6
 		}
 		else
 		{
-			System.out.println(str.substring(0, 5););
+			System.out.println(str.substring(0, 5));
 		}
 		in.close();
 	}
