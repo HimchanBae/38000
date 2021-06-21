@@ -12,16 +12,23 @@ public class Quiz5
 		String word = in.next();
 	
 		char[] letters = word.toCharArray(); //String 을 CharArray 로
-		int n = letters.length;
-				
-		for (int k=0; k<n; k++) 
+		int len = letters.length;
+		
+		if (len>100) //100자 이하로 입력
 		{
-			for (int i=0; i<n; i++) 
+			System.out.println("올바른 길이로 입력해 주세요.");
+		}
+		else 
+		{
+			for (int i=0; i<len; i++) //행
 			{
-				int j = (i+(n-1)*(k+1))%n;	
-				System.out.print(letters[j]);
+				for (int j=0; j<len; j++) //열
+				{
+					int answer = (j+(len-1)*(i+1))%len;	//규칙
+					System.out.print(letters[answer]);
+				}
+				System.out.println();
 			}
-			System.out.println();
 		}
 		in.close();		
 	}
