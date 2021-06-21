@@ -13,12 +13,11 @@ public class Quiz13
 		
 		String[] words = str.split(" "); //나눠줌
 		
-		int n = words.length; //반대로 출력을 위하여
 		int len = str.length(); //100자 이하로 받기 위하여
 		
 		if ( len < 100 )
 		{
-			for (int i = n-1; i >= 0; i--) //반대로 출력
+			for (int i = words.length-1; i >= 0; i--) //반대로 출력
 			{
 				System.out.println( words[i] );
 			}
