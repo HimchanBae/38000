@@ -18,8 +18,7 @@ public class Quiz6
 		}
 		else
 		{
-		String unit = str.substring(0, 5);
-		System.out.println(unit);
+			System.out.println(str.substring(0, 5););
 		}
 		in.close();
 	}
