@@ -20,7 +20,7 @@ public class Quiz10
 				System.out.println("100자 이하로 입력해 주세요.");
 				break;
 			}
-			if(i%2 == 0) 
+			else if(i%2 == 0) 
 			{
 				System.out.println(words[i]);
 			}
