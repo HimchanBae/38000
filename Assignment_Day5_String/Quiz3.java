@@ -16,10 +16,6 @@ public class Quiz3
     	char[] arr = new char[100]; //문자열 길이는 최대 100자
         int len = str.length(); //입력 받은 글자 수를 알아야 하므로
         
-        for (int i = 0; i < len; i++) 
-        {
-            arr[i] = str.charAt(i); //문자열을 문자로 저장
-        }
         if (num > len) 
         {
             num = len; //입력 받은 정수가 문자열의 길이보다 크다면 문자열을 그대로 출력하므로
