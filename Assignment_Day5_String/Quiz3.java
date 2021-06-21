@@ -23,7 +23,7 @@ public class Quiz3
 		for (int i = len - 1; i >= len - num; i--) //i는 인덱스 값이므로 -1부터, 범위는 입력 정수값 만큼 뒤에서니까 -1 안 해도 됨.
 		{
 		    ary[i] = str.charAt(i);
-		    System.out.print(arr[i]);
+		    System.out.print(ary[i]);
 		}
         in.close();
 	}
