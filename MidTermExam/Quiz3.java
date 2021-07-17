@@ -34,7 +34,7 @@ public class Quiz3
 			if (userNum[i] < 1 || userNum[i] > 45) //1부터 45까지의 숫자만 입력 받기 위한 조건문
 			{
 				System.out.println("1부터 45사이의 숫자를 처음부터 다시 입력해 주세요.");
-				break;
+				i--;
 			}
 			for (int j = 0; j < i; j++) //중복 제거; 중복일 경우 다시 입력할 수 있게
 			{
